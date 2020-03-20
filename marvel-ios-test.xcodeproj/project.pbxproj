@@ -18,6 +18,7 @@
 		9D594D122422EE5000214073 /* ComicDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D594D112422EE5000214073 /* ComicDetail.swift */; };
 		9D594D152423095100214073 /* ComicOptionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D594D142423095100214073 /* ComicOptionButton.swift */; };
 		9D594D182423C39C00214073 /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D594D172423C39C00214073 /* Helpers.swift */; };
+		9D80D44424257D7D005AD068 /* PrivateAPIKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D80D44324257D7D005AD068 /* PrivateAPIKey.swift */; };
 		9DDFD3C924243DC400B8D071 /* MD5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DDFD3C824243DC400B8D071 /* MD5.swift */; };
 		9DDFD3D424251DD300B8D071 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D0121BB2422A334002E7E8B /* Main.storyboard */; };
 /* End PBXBuildFile section */
@@ -58,6 +59,7 @@
 		9D594D112422EE5000214073 /* ComicDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComicDetail.swift; sourceTree = "<group>"; };
 		9D594D142423095100214073 /* ComicOptionButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComicOptionButton.swift; sourceTree = "<group>"; };
 		9D594D172423C39C00214073 /* Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
+		9D80D44324257D7D005AD068 /* PrivateAPIKey.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrivateAPIKey.swift; sourceTree = "<group>"; };
 		9DDFD3C824243DC400B8D071 /* MD5.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MD5.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -109,6 +111,7 @@
 		9D0121B42422A334002E7E8B /* marvel-ios-test */ = {
 			isa = PBXGroup;
 			children = (
+				9D80D44324257D7D005AD068 /* PrivateAPIKey.swift */,
 				9D0121B52422A334002E7E8B /* AppDelegate.swift */,
 				9D0121B72422A334002E7E8B /* SceneDelegate.swift */,
 				9D594D162423C39100214073 /* Util */,
@@ -320,6 +323,7 @@
 				9D594D0F2422E20500214073 /* MarvelService.swift in Sources */,
 				9DDFD3C924243DC400B8D071 /* MD5.swift in Sources */,
 				9D0121B82422A334002E7E8B /* SceneDelegate.swift in Sources */,
+				9D80D44424257D7D005AD068 /* PrivateAPIKey.swift in Sources */,
 				9D594D152423095100214073 /* ComicOptionButton.swift in Sources */,
 				9D594D122422EE5000214073 /* ComicDetail.swift in Sources */,
 			);
