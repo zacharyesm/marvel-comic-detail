@@ -18,9 +18,9 @@
 		9D594D122422EE5000214073 /* ComicDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D594D112422EE5000214073 /* ComicDetail.swift */; };
 		9D594D152423095100214073 /* ComicOptionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D594D142423095100214073 /* ComicOptionButton.swift */; };
 		9D594D182423C39C00214073 /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D594D172423C39C00214073 /* Helpers.swift */; };
-		9DDFD3C72423FA0800B8D071 /* PrivateAPIKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DDFD3C62423FA0800B8D071 /* PrivateAPIKey.swift */; };
 		9DDFD3C924243DC400B8D071 /* MD5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DDFD3C824243DC400B8D071 /* MD5.swift */; };
 		9DDFD3D424251DD300B8D071 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D0121BB2422A334002E7E8B /* Main.storyboard */; };
+		9DDFD3DF24254DBA00B8D071 /* PrivateAPIKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DDFD3DE24254DBA00B8D071 /* PrivateAPIKey.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,8 +59,8 @@
 		9D594D112422EE5000214073 /* ComicDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComicDetail.swift; sourceTree = "<group>"; };
 		9D594D142423095100214073 /* ComicOptionButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComicOptionButton.swift; sourceTree = "<group>"; };
 		9D594D172423C39C00214073 /* Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
-		9DDFD3C62423FA0800B8D071 /* PrivateAPIKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivateAPIKey.swift; sourceTree = "<group>"; };
 		9DDFD3C824243DC400B8D071 /* MD5.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MD5.swift; sourceTree = "<group>"; };
+		9DDFD3DE24254DBA00B8D071 /* PrivateAPIKey.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrivateAPIKey.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +91,7 @@
 		9D0121A92422A333002E7E8B = {
 			isa = PBXGroup;
 			children = (
+				9DDFD3DE24254DBA00B8D071 /* PrivateAPIKey.swift */,
 				9D0121B42422A334002E7E8B /* marvel-ios-test */,
 				9D0121CB2422A340002E7E8B /* marvel-ios-testTests */,
 				9D0121D62422A340002E7E8B /* marvel-ios-testUITests */,
@@ -172,7 +173,6 @@
 			isa = PBXGroup;
 			children = (
 				9D594D172423C39C00214073 /* Helpers.swift */,
-				9DDFD3C62423FA0800B8D071 /* PrivateAPIKey.swift */,
 				9DDFD3C824243DC400B8D071 /* MD5.swift */,
 			);
 			path = Util;
@@ -321,9 +321,9 @@
 				9D594D182423C39C00214073 /* Helpers.swift in Sources */,
 				9D0121B62422A334002E7E8B /* AppDelegate.swift in Sources */,
 				9D594D0F2422E20500214073 /* MarvelService.swift in Sources */,
-				9DDFD3C72423FA0800B8D071 /* PrivateAPIKey.swift in Sources */,
 				9DDFD3C924243DC400B8D071 /* MD5.swift in Sources */,
 				9D0121B82422A334002E7E8B /* SceneDelegate.swift in Sources */,
+				9DDFD3DF24254DBA00B8D071 /* PrivateAPIKey.swift in Sources */,
 				9D594D152423095100214073 /* ComicOptionButton.swift in Sources */,
 				9D594D122422EE5000214073 /* ComicDetail.swift in Sources */,
 			);
