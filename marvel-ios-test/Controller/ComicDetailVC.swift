@@ -74,6 +74,7 @@ class ComicDetailVC: UIViewController {
         tv.textContainer.lineBreakMode = .byWordWrapping
         tv.isScrollEnabled = false
         tv.backgroundColor = .clear
+        tv.isEditable = false
         return tv
     }()
     
@@ -101,7 +102,10 @@ class ComicDetailVC: UIViewController {
             }
             
             guard let comic = comicDetail else {
-                self.presentAlert(title: "Error", message: "Could not load Comic :(")
+                DispatchQueue.main.async {
+                    self.presentAlert(title: "Error", message: "Could not load Comic :(")
+                }
+                
                 return
             }
             
